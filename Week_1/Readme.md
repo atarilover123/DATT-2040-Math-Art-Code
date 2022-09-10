@@ -31,7 +31,7 @@ Be as creative as you like. If your final result looks radically different from 
 
 Comment your work as much as possible.  
 
-Create a github repository for this course and add a folder Titled Week 1 with your submission and any other materials you would like to share. Copy the link into a word doc, submit to eclass as a word doc or PDF.
+Create a github repository for this course and add a folder titled Week 1 containing your submission and any other materials you would like to share. Copy the link into a word doc, submit to eclass as a word doc or PDF.
 
 <img src="https://raw.githubusercontent.com/atarilover123/DATT-2040-Math-Art-Code/main/Week_1/github_upload.png" width="60%"> 
 
