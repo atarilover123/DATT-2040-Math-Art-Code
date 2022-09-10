@@ -11,7 +11,7 @@
 Make a creative sketch (short program with a visual output) that is based around the grid structure we built in lab. 
 Try not to spend longer than 45 minutes on the sketch, it’s interesting to improvise with your immediate ideas.
 
-Think about elements such as grid spacing, the sizing of objects, the position, color and rotation of objects. 
+Think about elements such as grid spacing, the sizing of objects, the position, color and rotation of objects. Submissions must include your Processing code. If you wish you can also include still images, notes, or any other material you feel is relevant -- it's useful for me to see your process and experiments as well as your final submission.  
 
 <img src="https://raw.githubusercontent.com/atarilover123/DATT-2040-Math-Art-Code/main/Week_1/Image%20Examples/rotate.gif" width="40%">  <img src="https://raw.githubusercontent.com/atarilover123/DATT-2040-Math-Art-Code/main/Week_1/Image%20Examples/dicerules_cropped.png" width="40%"> 
 
