@@ -37,7 +37,9 @@ Create a github repository for this course and add a folder titled Week 1 contai
 
 If you're feeling ambitious you can think about adding in elements such as <a href="https://processing.org/examples/recursion.html">recursion</a> to make a more complex, subdivided grid.
 
-<img src="https://raw.githubusercontent.com/atarilover123/DATT-2040-Math-Art-Code/main/Week_1/Image%20Examples/recursion_mikebrondbjerg.png" width="40%"> <img src="https://raw.githubusercontent.com/atarilover123/DATT-2040-Math-Art-Code/main/Week_1/Image%20Examples/recursivegrid.gif" width="40%">
+<img src="https://raw.githubusercontent.com/atarilover123/DATT-2040-Math-Art-Code/main/Week_1/Image%20Examples/Mike%20Brondbjerg%20Recursive%20Grid.png" width="40%"> <img src="https://raw.githubusercontent.com/atarilover123/DATT-2040-Math-Art-Code/main/Week_1/Image%20Examples/recursivegrid.gif" width="40%">
+
+<a href ="https://mobile.twitter.com/mikebrondbjerg/status/1458894368685936642">Fun subdivided grid thread by Mike Brondbjerg</a> 
 
 
 
