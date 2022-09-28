@@ -1,11 +1,11 @@
 PVector[] sp;
 PVector[] acc;
-int num = 50;
+int num = 100;
 
 void setup() {
   size(800, 800);
-  sp = new PVector[100];
-  acc = new PVector[100];
+  sp = new PVector[num];
+  acc = new PVector[num];
   for (int i = 0; i < num; i++) {
     sp[i] = new PVector(random(width), random(height), random(5, 70));
     acc[i] = new PVector(random(-2, 2), random(-2, 2), 0);
@@ -31,24 +31,23 @@ void draw() {
 
     //add in this loop to check for distance
     for (int i = 0; i < num; i++) {
-      
+
       //use PVector built in distance
       float d = PVector.dist(sp[j], sp[i]);
-      
-      if (d <= 100  ) {
+
+      if (d <= 85  ) {
 
         stroke(255);
 
-        strokeWeight(1.5);
+        strokeWeight(0.5);
         line(sp[i].x, sp[i].y, sp[j].x, sp[j].y);
-      } else {
-        noStroke();
       }
-      strokeWeight(0.5);
-      ellipse(sp[i].x, sp[i].y, sp[i].z, sp[i].z);
     }
     
-    
-    
+    strokeWeight(1);
+    stroke(255);
+    ellipse(sp[j].x, sp[j].y, sp[j].z, sp[j].z);
   }
+  println(frameRate);
 }
+
