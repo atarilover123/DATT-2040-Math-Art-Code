@@ -48,6 +48,5 @@ void draw() {
     stroke(255);
     ellipse(sp[j].x, sp[j].y, sp[j].z, sp[j].z);
   }
-
 }
 
