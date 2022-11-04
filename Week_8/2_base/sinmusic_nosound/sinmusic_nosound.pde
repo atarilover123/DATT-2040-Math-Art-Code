@@ -1,3 +1,5 @@
+import processing.sound.*;
+
 mysin[] sin;
 int num = 24;
 int step;
@@ -38,12 +40,35 @@ class mysin {
 
   int offset = 2;
 
+  //sound stuff
+  SinOsc sine;
+  Env env;
+
+  // Times and levels for the ASR envelope
+  float attackTime = 0.0001;
+  float sustainTime = 0.9;
+  float sustainLevel = 0.3;
+  float releaseTime = 0.2;
+
+  // duration before triggering new note
+  int duration = 100;
+
+  // This variable stores the point in time when the next note should be triggered
+  int trigger = millis();
+
+
   mysin(float x, float y, float sp, int index) {
     this.x = x;
     this.y = y;
     this.sp = sp;
 
     this.index = index;
+
+    // Create triangle wave and start it
+    sine = new SinOsc(sinmusic_nosound.this);
+
+    // Create the envelope
+    env = new Env(sinmusic_nosound.this);
 
     c = 255;
   }
@@ -55,6 +80,9 @@ class mysin {
     ellipse(x+sinval, y, step, step);
 
     if (x+sinval >= (width/2)-offset & x+sinval <= (width/2)+offset ) {
+      
+      sine.play(int(random(1000)), 0.1);
+      
       c = color(random(255), random(255), random(255));
       noFill();
       stroke(255);
